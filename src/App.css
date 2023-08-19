@@ -1,0 +1,63 @@
+.mainDiv{
+  width: 100%;
+  color: rgb(9, 58, 61);
+  padding-bottom: 30px;
+}
+.weatherHeading{
+ text-align: center;
+}
+.searchBar{
+  text-align: center;
+}
+.searchBar input{
+  width: 40%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 15px;
+  box-shadow: 2px 3px gray;
+}
+.searchBar button{
+  width: 5%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: white;
+  background-color: blue;
+  border: 1px solid blue;
+  border-radius: 5px;
+  font-size: 1.5vw;
+}
+.dataDis{
+  width: 100%;
+  text-align: center;
+}
+.dataWeather{
+  width: 60%;
+  margin: auto;
+  margin-top: 3%;
+  border-radius: 8px;
+  background-color: hwb(180 68% 9%);
+  opacity: .7;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  border: 1px solid rgb(192, 182, 182);
+}
+.locat{
+  align-items: center;
+}
+.icontxt{
+  display: flex;
+  place-content: center;
+  color: rgb(37, 37, 172);
+  text-align: center;
+}
+.temp{
+  display: flex;
+  place-content: center;
+  color: rgb(201, 140, 9);
+  text-align: center;
+}
+#app{
+  color: rgb(9, 59, 30);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
